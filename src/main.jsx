@@ -4,6 +4,8 @@ import App from './App.jsx'
 import Workout from './pages/Workout.jsx';
 import MealPlan from './pages/MealPlan.jsx';
 import About from './pages/AboutUs.jsx';
+import TrainerAvailability from './pages/TrainerAvailability.jsx';
+import SelectTrainer from './pages/SelectTrainer.jsx';
 
 import './index.css'
 import {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: "/About",
     element: <About />,
+  },
+  {
+    path: "/trainer-availability",
+    element: <TrainerAvailability />,
+  },
+  {
+    path: "/select-trainer",
+    element: <SelectTrainer />,
   },
 
  
