@@ -24,9 +24,9 @@ const App = () => {
             min-h-screen 
             p-5 
             bg-gradient-to-r 
-            from-yellow-400 
-            via-green-400 
-            to-yellow-400 
+            from-blue-400 
+            via-purple-400 
+            to-pink-400 
             animate-gradient-x 
             bg-[length:200%_200%]
             animate-gradient-invert
