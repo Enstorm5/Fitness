@@ -43,7 +43,10 @@ function NavBar() {
           <MenuItems linkname="About" url="/About" />
         </div>
         <div className="px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300">
-          <MenuItems linkname="Trainer Availability" url="/trainer-availability" />
+          <MenuItems linkname="Select Trainer" url="/select-trainer" />
+        </div>
+        <div className="px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300">
+          <MenuItems linkname="Booking Calendar" url="/booking-calendar" />
         </div>
       </div>
     </nav>

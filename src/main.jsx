@@ -6,6 +6,7 @@ import MealPlan from './pages/MealPlan.jsx';
 import About from './pages/AboutUs.jsx';
 import TrainerAvailability from './pages/TrainerAvailability.jsx';
 import SelectTrainer from './pages/SelectTrainer.jsx';
+import BookingCalendar from './pages/BookingCalendar.jsx';
 
 import './index.css'
 import {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/select-trainer",
     element: <SelectTrainer />,
+  },
+  {
+    path: "/booking-calendar",
+    element: <BookingCalendar />,
   },
 
  
