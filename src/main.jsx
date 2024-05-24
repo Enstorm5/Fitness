@@ -8,6 +8,7 @@ import TrainerAvailability from './pages/TrainerAvailability.jsx';
 import SelectTrainer from './pages/SelectTrainer.jsx';
 import BookingCalendar from './pages/BookingCalendar.jsx';
 import DeleteAccount from './pages/DeleteAccount.jsx';
+import Payment from './pages/Payment.jsx';
 
 import './index.css'
 import {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
   {
     path: "/delete-account",
     element: <DeleteAccount />,
+  },
+  {
+    path: "/payment",
+    element: <Payment />,
   },
 
  
