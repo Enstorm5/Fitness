@@ -10,6 +10,7 @@ import BookingCalendar from './pages/BookingCalendar.jsx';
 import DeleteAccount from './pages/DeleteAccount.jsx';
 import Payment from './pages/Payment.jsx';
 import FitnessProfile from './pages/FitnessProfile.jsx';
+import Prototype from './pages/Prototype.jsx';
 
 import './index.css'
 import {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
   {
     path: "/fitness-profile",
     element: <FitnessProfile />,
+  },
+  {
+    path: "/prototype",
+    element: <Prototype />,
   },
 
  
