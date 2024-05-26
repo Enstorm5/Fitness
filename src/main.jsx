@@ -11,6 +11,7 @@ import DeleteAccount from './pages/DeleteAccount.jsx';
 import Payment from './pages/Payment.jsx';
 import FitnessProfile from './pages/FitnessProfile.jsx';
 import Prototype from './pages/Prototype.jsx';
+import PreMadeWorkoutPlans from './pages/PreMadeWorkoutPlans.jsx';
 
 import './index.css'
 import {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "/prototype",
     element: <Prototype />,
+  },
+  {
+    path: "/premade-workout-plans",
+    element: <PreMadeWorkoutPlans />,
   },
 
  
