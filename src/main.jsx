@@ -13,6 +13,7 @@ import FitnessProfile from './pages/FitnessProfile.jsx';
 import Prototype from './pages/Prototype.jsx';
 import PreMadeWorkoutPlans from './pages/PreMadeWorkoutPlans.jsx';
 import CreateAccount from './pages/CreateAccount.jsx';
+import LogWorkout from './pages/LogWorkout.jsx';
 
 import './index.css'
 import {
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
   {
     path: "/create-account",
     element: <CreateAccount />,
+  },
+  {
+    path: "/log-workout",
+    element: <LogWorkout />,
   },
 
  

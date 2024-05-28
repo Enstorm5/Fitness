@@ -66,6 +66,9 @@ function NavBar() {
         <div className="px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300">
           <MenuItems linkname="Create Account" url="/create-account" />
         </div>
+        <div className="px-4 py-2 rounded-lg hover:bg-green-600 transition duration-300">
+          <MenuItems linkname="Log Workout" url="/log-workout" />
+        </div>
       </div>
     </nav>
   );
